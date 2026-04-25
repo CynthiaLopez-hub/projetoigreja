@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html lang = "PT-BR">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Login-Assembleia de Deus</title>
+        <style>
+           body {
+              font-family: Arial, Helvetica, sans-serif;
+              background-color: whitesmoke;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+              margin: 0;
+           }
+
+           .cartao-login { 
+                background-color: white;
+                padding: 40px;
+                border-radius: 15px;
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+                width: 350px;
+                text-align: center;
+               
+           }
+
+           .logo {
+            color: #d35400;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+           }
+
+           input {
+             width: 100%;
+             padding: 10px;
+             margin: 10px 0;
+             border-radius: 5px;
+             box-sizing: border-box;
+           }
+
+             button {
+                 width: 100%;
+                 padding: 10px;
+                 background-color: #ff8c00;
+                 color: white;
+                 border: none;
+                 border-radius: 5px;
+                 cursor: pointer;
+                 font-weight: bold;
+
+             }
+
+             button:hover {
+                background-color: #e67e00;
+             }
+        </style>
+    </head>
+    <body>
+        <div class = "cartao- login">
+            <div class="logo">Assembleia de Deus</div>
+         <p> Acesse sua conta</p>
+            <form> <input type= "email" placeholder="Email" required>
+                    <input type = "password" placeholder = "senha" required>
+                    <button type = "submit"> Entrar</button>
+            </form>
+            <p style=" font-size: 12px; margin-top: 15px;">
+                nao tem uma conta? <a href = "#">registre-se</a>
+            </p>
+            
+        </div>
+    </body>
+ </html>
