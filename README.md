@@ -64,11 +64,3 @@ Dentro de `@media` existem duas regras:
 - Evita que a página fique cortada ou difícil de usar em telas pequenas.
 - Faz com que o formulário de login apareça sozinho, de forma mais limpa e direta.
 
-## Observações
-
-O código atual tem alguns pontos que podem ser ajustados para funcionar melhor:
-
-- A regra `* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }` está dentro do seletor `body { ... }`. O ideal é colocá-la fora, no topo do CSS.
-- A classe `.container.form>` na estrutura HTML está escrita de forma incorreta. O correto seria algo como `<div class="container-form">`.
-
-Esses ajustes não mudam o propósito do código, mas ajudam a garantir que ele funcione corretamente em todos os navegadores.
